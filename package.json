@@ -1,0 +1,37 @@
+{
+  "name": "fictionalui",
+  "version": "1.0.0",
+  "description": "Fictional UI / UX Component library for Vue3+",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*",
+    "src/components/Test.vue"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fictional-ui/components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fictional-ui/components/issues"
+  },
+  "homepage": "https://f-ui.com/",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "rollup": "^2.70.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.31"
+  }
+}
